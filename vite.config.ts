@@ -29,30 +29,30 @@ export default defineConfig({
         "apple-touch-icon.png",
       ],
       manifest: {
-        name: "GEVP APP",
-        short_name: "GEVP APP",
+        name: "Padel GEVP",
+        short_name: "Padel GEVP",
         description:
-          "Consulta o carga entrenamientos y eventos en el club GEVP.",
-        theme_color: "#2c7a9e",
-        background_color: "#2c7a9e",
+          "Reserva tu cancha de pádel en GEVP de forma rápida y sencilla. Vení a disfrutar del mejor pádel con amigos y viví la experiencia en nuestras instalaciones. ¡Te esperamos!",
+        theme_color: "black",
+        background_color: "black",
         display: "standalone",
         scope: "/",
         start_url: "/",
         icons: [
           {
-            src: "./assets/gevpLogo.png",
+            src: "./assets/gevpPadelLogo2.jpg",
             sizes: "192x192",
             type: "image/png",
             purpose: "maskable any",
           },
           {
-            src: "./assets/gevpLogo.png",
+            src: "./assets/gevpPadelLogo2.jpg",
             sizes: "512x512",
             type: "image/png",
             purpose: "maskable any",
           },
           {
-            src: "./assets/gevpLogo.png",
+            src: "./assets/gevpPadelLogo2.jpg",
             sizes: "180x180",
             type: "image/png",
             purpose: "maskable any",
