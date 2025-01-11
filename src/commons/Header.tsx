@@ -1,4 +1,4 @@
-import logo from "../assets/gevpPadelLogo2.jpg";
+import logo from "/assets/gevpPadelLogo2.jpg";
 import { Link } from "react-scroll";
 
 function Header() {

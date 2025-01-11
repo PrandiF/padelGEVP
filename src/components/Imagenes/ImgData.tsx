@@ -1,11 +1,11 @@
-import img2 from "../../assets/chela1.png";
-import img3 from "../../assets/chela2.png";
-import img4 from "../../assets/chela3.png";
-import img5 from "../../assets/chela4.png";
-import img6 from "../../assets/playPadel.webp";
-import img7 from "../../assets/tenis1.png";
-import img8 from "../../assets/tenisPlay1.png";
-import img9 from "../../assets/tenisPlay2.png";
+import img2 from "/assets/chela1.png";
+import img3 from "/assets/chela2.png";
+import img4 from "/assets/chela3.png";
+import img5 from "/assets/chela4.png";
+import img6 from "/assets/playPadel.webp";
+import img7 from "/assets/tenis1.png";
+import img8 from "/assets/tenisPlay1.png";
+import img9 from "/assets/tenisPlay2.png";
 
 export const TenisPics = [
   { nombre: "img2", url: img2 },
