@@ -21,7 +21,7 @@ function Precios({ id }: PreciosProps) {
         />
 
         <div
-          className="bg-white shadow-2xl rounded-lg p-8 mb-8 mt-6"
+          className="bg-container-gradient shadow-2xl rounded-lg p-8 mb-8 mt-6"
           data-aos="fade"
           data-aos-delay="400"
         >

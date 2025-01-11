@@ -23,7 +23,7 @@ function AditionalInfo({ id }: AddInfoProps) {
         </div>
 
         <div
-          className="bg-white shadow-2xl rounded-lg p-8 mt-6"
+          className="bg-container-gradient shadow-2xl rounded-lg p-8 mt-6"
           data-aos="fade"
           data-aos-delay="400"
         >
@@ -34,6 +34,15 @@ function AditionalInfo({ id }: AddInfoProps) {
             En padel GEVP podes sacar tu abono por mes y tener tu cancha el
             mismo dia, a la misma hora, durante 4 semanas para no quedarte sin
             jugar y poder disfrutar del padel con tus amigos.
+          </p>
+          <h3 className="text-3xl font-semibold mb-4 text-[#6EC1E4]">
+            ¿Olvidaste tus paletas? ¡Nosotros te cubrimos!
+          </h3>
+          <p className="text-sm text-gray-600 mb-4 xl:text-lg">
+            No dejes que la falta de equipo arruine tu juego. Si olvidaste tus
+            paletas o no tienes una, no te preocupes: contamos con opciones
+            listas para que sigas disfrutando sin interrupciones. ¡Ven, elige la
+            que más te guste y concéntrate en lo importante, jugar!
           </p>
           {/* <ul className="text-gray-600 mb-6 text-left max-w-md mx-auto">
             <li className="mb-2">

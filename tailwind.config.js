@@ -12,6 +12,8 @@ export default {
           "linear-gradient(to right, #01497c 0%, #163986 50%, #0d275e 100%)",
         "white-gradient":
           "linear-gradient(to right, #dee2e6 0%, #e9ecef 50%, #dee2e6 100%)",
+        "container-gradient":
+          "linear-gradient(to right, #adb5bd 0%, #e9ecef 30%, #f8f9fa 50%, #e9ecef 70%, #adb5bd 100%)",
       },
 
       fontFamily: {

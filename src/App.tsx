@@ -19,8 +19,8 @@ function App() {
       </div>
       <div className="flex flex-col  bg-black">
         <div className="xl:mt-[12%] mt-[65%]">
-          <InstalSection id="GALERIA" />
           <Precios id="PRECIOS" />
+          <InstalSection id="GALERIA" />
           <AditionalInfo id="" />
         </div>
       </div>
