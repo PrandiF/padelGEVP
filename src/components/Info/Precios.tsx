@@ -163,7 +163,7 @@ function Precios({ id }: PreciosProps) {
             </div>
           </div>
 
-          <div className="flex w-full items-center justify-center mt-[5%]">
+          <div className="flex w-full items-center justify-center mt-[5%] mb-[3%]">
             <Button1
               text="Reservar"
               bg="bg-blue-gradient"

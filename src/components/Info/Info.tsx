@@ -73,10 +73,21 @@ function AditionalInfo({ id }: AddInfoProps) {
             <h3 className="text-3xl font-semibold mb-4 text-[#6EC1E4]">
               Sacá tu abono
             </h3>
-            <p className="text-sm text-gray-600 mb-4 xl:text-base">
-              En padel GEVP podes sacar tu abono por mes y tener tu cancha el
-              mismo dia, a la misma hora, durante 4 semanas para no quedarte sin
-              jugar y poder disfrutar del padel con tus amigos.
+            <p className="text-sm text-gray-600 mb-4 xl:text-base text-start">
+              En <b>Pádel GEVP</b>, podés reservar tu cancha fija por mes garantizando
+              tu partido con amigos sin preocupaciones.
+              <br />
+              <br />
+              Para confirmar tu abono mensual, el pago debe realizarse dentro de
+              los primeros 10 días del mes. El costo se calcula multiplicando el
+              valor de la cancha por la cantidad de días reservados, con un
+              <b>
+                10% de descuento para no socios y un 20% de descuento para
+                socios.
+              </b>
+              <br />
+              <br />
+              <p className="font-bold text-center">¡No te quedes sin jugar, asegurá tu cancha y disfrutá del mejor pádel!</p>
             </p>
           </div>
 

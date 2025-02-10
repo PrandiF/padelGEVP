@@ -33,7 +33,7 @@ function App() {
               className="items-center justify-center w-full text-center"
             />
           </div>
-          <div className="flex flex-col xl:flex-row xl:w-[90%] justify-center mx-auto">
+          <div className="flex flex-col xl:flex-row xl:w-[95%] justify-center mx-auto">
             <Precios id="PRECIOS" />
             <AditionalInfo id="" />
           </div>
