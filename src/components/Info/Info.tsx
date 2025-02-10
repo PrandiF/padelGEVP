@@ -21,37 +21,65 @@ function AditionalInfo({ id }: AddInfoProps) {
           data-aos-delay="400"
         >
           <h3 className="text-3xl font-semibold mb-4 text-[#6EC1E4]">
-            Sacá tu abono
-          </h3>
-          <p className="text-sm text-gray-600 mb-4 xl:text-lg">
-            En padel GEVP podes sacar tu abono por mes y tener tu cancha el
-            mismo dia, a la misma hora, durante 4 semanas para no quedarte sin
-            jugar y poder disfrutar del padel con tus amigos.
-          </p>
-          <h3 className="text-3xl font-semibold mb-4 text-[#6EC1E4]">
             ¿Olvidaste tus paletas? ¡Nosotros te cubrimos!
           </h3>
-          <p className="text-sm text-gray-600 mb-4 xl:text-lg">
+          <p className="text-sm text-gray-600 mb-4 xl:text-base">
             No dejes que la falta de equipo arruine tu juego. Si olvidaste tus
             paletas o no tienes una, no te preocupes: contamos con opciones
-            listas para que sigas disfrutando sin interrupciones. ¡Ven, elige la
-            que más te guste y concéntrate en lo importante, jugar!
+            listas para que sigas disfrutando sin interrupciones. ¡Vení, elegí
+            la que más te guste y concéntrate en lo importante, jugar!
           </p>
-          {/* <ul className="text-gray-600 mb-6 text-left max-w-md mx-auto">
-            <li className="mb-2">
-              🧒 <span className="font-semibold">Clases para niños: </span>
-              Introducción al tenis en un entorno divertido.
-            </li>
-            <li className="mb-2">
-              👦{" "}
-              <span className="font-semibold">Clases para adolescentes: </span>
-              Perfeccionamiento técnico y táctico.
-            </li>
-            <li className="mb-2">
-              🧑 <span className="font-semibold">Clases para adultos: </span>
-              Desde principiantes hasta jugadores avanzados.
-            </li>
-          </ul> */}
+
+          <div className="flex w-full justify-center">
+            {/* Columna Derecha */}
+            <div className="flex flex-col text-start w-1/2 pl-4">
+              <p className="flex text-lg font-bold text-gray-600 underline mb-4">
+                Alquiler de paletas
+              </p>
+              <div className="flex flex-col">
+                <div className="flex gap-2">
+                  <p className="font-bold text-gray-600">Paleta 1:</p>
+                  <p className="text-black">$3.500</p>
+                </div>
+                <div className="flex gap-2">
+                  <p className="font-bold text-gray-600">Paleta 2:</p>
+                  <p className="text-black">$2.000</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Divisor */}
+            {/* <div className="border-l-2 border-gray-400 h-auto"></div> */}
+
+            {/* Columna Derecha */}
+            <div className="flex flex-col text-start w-1/2 pl-4">
+              <p className="flex text-lg font-bold text-gray-600 underline mb-4">
+                Tubos de pelotas en venta
+              </p>
+              <div className="flex flex-col">
+                <div className="flex gap-2">
+                  <p className="font-bold text-gray-600">Head:</p>
+                  <p className="text-black">$15.000</p>
+                </div>
+                <div className="flex gap-2">
+                  <p className="font-bold text-gray-600">Prince:</p>
+                  <p className="text-black">$11.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-[5%] flex flex-col">
+            <h3 className="text-3xl font-semibold mb-4 text-[#6EC1E4]">
+              Sacá tu abono
+            </h3>
+            <p className="text-sm text-gray-600 mb-4 xl:text-base">
+              En padel GEVP podes sacar tu abono por mes y tener tu cancha el
+              mismo dia, a la misma hora, durante 4 semanas para no quedarte sin
+              jugar y poder disfrutar del padel con tus amigos.
+            </p>
+          </div>
+
           <p className="text-gray-600">Contáctanos para más información.</p>
           <a
             href="https://wa.me/5491173686929?text=Hola,%20quiero%20sacar%20mi%20abono."

@@ -42,7 +42,7 @@ function Footer({ id }: FooterProps) {
           </a>
             <p className="flex items-center gap-2 text-lg">
               <FaEnvelope />
-              padel@gevp.com
+              vrodrigoaaron@gmail.com
             </p>
           </div>
 
