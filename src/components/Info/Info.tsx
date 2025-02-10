@@ -1,4 +1,4 @@
-import Title from "../../commons/Title";
+// import Title from "../../commons/Title";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";

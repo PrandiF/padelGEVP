@@ -5,7 +5,7 @@ import AditionalInfo from "./components/Info/Info";
 import Home from "./components/Inicio/Home";
 import InstalSection from "./components/Imagenes/ImgSection";
 import Precios from "./components/Info/Precios";
-import ScrollToTop from "./commons/ScrollToTop";
+// import ScrollToTop from "./commons/ScrollToTop";
 import Nosotros from "./components/Nosotros/Nosotros";
 import Title from "./commons/Title";
 import WhatsAppButton from "./commons/WppButton";
