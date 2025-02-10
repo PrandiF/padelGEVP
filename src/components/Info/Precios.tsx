@@ -13,20 +13,15 @@ function Precios({ id }: PreciosProps) {
     AOS.init({ duration: 1600 });
   }, []);
   return (
-    <section id={id} className="w-full py-16 bg-transparent relative xl:mt-24">
+    <section id={id} className="w-full bg-transparent relative">
       <div className="container mx-auto px-6 text-center">
-        <Title
-          title="Tarifas y promociones"
-          className="items-center justify-center"
-        />
-
         <div
-          className="bg-container-gradient shadow-2xl rounded-lg p-8 mb-8 mt-6"
+          className="bg-container-gradient shadow-2xl rounded-lg p-8 mb-8 mt-6 leading-relaxed"
           data-aos="fade"
           data-aos-delay="400"
         >
           <h3 className="text-3xl font-semibold mb-4 text-[#6EC1E4]">
-            La información que necesitas
+            Tarifas y promociones
           </h3>
           <p className="text-lg font-bold text-gray-600 mb-4">
             Disfruta de nuestras canchas de padel de primer nivel disponibles de

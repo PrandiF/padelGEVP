@@ -43,7 +43,7 @@ function HeaderResponsive() {
           duration={700}
           onClick={() => setIsOpen(false)}
         >
-          <img src={logo} className="w-[50px]" />
+          <img src={logo} className="w-[50px] rounded-xl" />
         </Link>
 
         <button
@@ -71,6 +71,16 @@ function HeaderResponsive() {
             Inicio
           </Link>
           <Link
+            to="NOSOTROS"
+            spy={true}
+            smooth={true}
+            duration={700}
+            className="text-[22px] text-gray-200 cursor-pointer"
+            onClick={() => setIsOpen(false)}
+          >
+            Nosotros
+          </Link>
+          <Link
             to="GALERIA"
             spy={true}
             smooth={true}
@@ -89,16 +99,6 @@ function HeaderResponsive() {
             onClick={() => setIsOpen(false)}
           >
             Más Info
-          </Link>
-          <Link
-            to="CONTACTO"
-            spy={true}
-            smooth={true}
-            duration={700}
-            className="text-[22px] text-gray-200 cursor-pointer"
-            onClick={() => setIsOpen(false)}
-          >
-            Contacto
           </Link>
         </div>
       </div>
