@@ -1,4 +1,4 @@
-import Title from "../../commons/Title";
+// import Title from "../../commons/Title";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -13,17 +13,10 @@ function AditionalInfo({ id }: AddInfoProps) {
     AOS.init({ duration: 1600 });
   }, []);
   return (
-    <section id={id} className="w-full xl:py-16 pb-12 bg-transparent relative">
+    <section id={id} className="w-full  bg-transparent relative">
       <div className="container mx-auto px-6 text-center">
-        <div className="flex mx-auto w-full items-center justify-center">
-          <Title
-            title="Información Adicional"
-            className="items-center justify-center"
-          />
-        </div>
-
         <div
-          className="bg-container-gradient shadow-2xl rounded-lg p-8 mt-6"
+          className="bg-container-gradient shadow-2xl rounded-lg p-8 mt-6 min-h-[490px]"
           data-aos="fade"
           data-aos-delay="400"
         >
@@ -62,18 +55,18 @@ function AditionalInfo({ id }: AddInfoProps) {
           <p className="text-gray-600">Contáctanos para más información.</p>
           <a
             href="https://wa.me/5491173686929?text=Hola,%20quiero%20sacar%20mi%20abono."
-            className="text-gray-600 flex items-center justify-center gap-2 mt-2 hover:underline hover:text-green-500"
+            className="text-gray-600 flex items-center justify-center gap-2 mt-2 hover:underline hover:text-green-500 w-fit mx-auto"
             target="_blank"
           >
             <FaWhatsapp /> 11 7368 6929
           </a>
           <a
             href="https://www.instagram.com/gevp.padel/"
-            className="text-gray-600 flex items-center justify-center gap-2 mt-2 hover:underline hover:text-blue-500"
+            className="text-gray-600 flex items-center justify-center gap-2 mt-2 hover:underline hover:text-blue-500 w-fit mx-auto"
             target="_blank"
           >
             <FaInstagram />
-            padle.gevp
+            padel.gevp
           </a>
         </div>
       </div>

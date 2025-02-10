@@ -14,7 +14,10 @@ function InstalSection({ id }: InstalSectionProps) {
     AOS.init({ duration: 1600 });
   }, []);
   return (
-    <div className="relative z-30 w-full h-full xl:mt-[2%] flex flex-col gap-5" id={id}>
+    <div
+      className="relative z-30 w-full h-full xl:mt-[2%] flex flex-col gap-5"
+      id={id}
+    >
       <div
         className="mx-auto w-full flex justify-center items-center"
         data-aos="fade"
@@ -30,7 +33,7 @@ function InstalSection({ id }: InstalSectionProps) {
         data-aos="fade"
         data-aos-delay="400"
       >
-        <p className="xl:text-base text-lg w-[90%]">
+        <p className="text-lg w-[90%] xl:text-[24px] leading-relaxed drop-shadow-[6px_6px_8px_rgba(255,255,255,0.8)]">
           Momentos épicos, risas y buena onda en nuestras canchas. Hasta Juan
           Ignacio Chela se sumó a la diversión. ¿Y vos, cuándo venís a jugar?
         </p>

@@ -15,7 +15,7 @@ function Title({ title, className }: TitleProps) {
   }, []);
   return (
     <div
-      className={`relative flex xl:pb-4 ${className} w-full`}
+      className={`relative flex xl:pb-4 ${className} w-full leading-relaxed drop-shadow-[2px_2px_4px_rgba(255,255,255,0.8)]`}
       data-aos="fade"
       data-aos-duration="1600"
     >
