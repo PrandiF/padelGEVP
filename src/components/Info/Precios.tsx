@@ -23,39 +23,147 @@ function Precios({ id }: PreciosProps) {
           <h3 className="text-3xl font-semibold mb-4 text-[#6EC1E4]">
             Tarifas y promociones
           </h3>
-          <p className="text-lg font-bold text-gray-600 mb-4">
-            Disfruta de nuestras canchas de padel de primer nivel disponibles de
-            Lunes a Sabados de 9:30hs a 20:00hs.
+          <p className="text-xl font-bold text-gray-600 mb-4">
+            Disfruta de nuestras canchas de padel de primer nivel
           </p>
-          <p className="text-lg font-bold text-green-700 mb-2">
-            <span className="text-xl font-bold text-gray-800">Socios: </span>
-            $31.000
-          </p>
-          <p className="text-lg text-gray-800 mb-6 flex flex-col">
-            <span className="text-lg font-bold text-green-700 flex mx-auto gap-1 justify-center items-center">
-              <p className="text-xl font-bold text-gray-800">No socios: </p>
-              $38.000
-            </span>
-          </p>
-          <p className="text-black my-5">
-            <span className="text-2xl font-bold text-red-500">Promo: </span>
-            Hasta las 15hs
-          </p>
-          <p className="text-lg font-bold text-green-700 mb-2">
-            <span className="text-xl font-bold text-gray-800">Socios: </span>
-            $31.000
-          </p>
-          <p className="text-lg text-gray-800 mb-6 flex flex-col">
-            <span className="text-lg font-bold text-green-700 flex mx-auto gap-1 justify-center items-center">
-              <p className="text-xl font-bold text-gray-800">No socios: </p>
-              $38.000
-            </span>
-          </p>
-          <p className="text-gray-600 flex xl:flex-row flex-col xl:gap-1 mx-auto justify-center xl:items-center">
-            Duración turnos:
-            <span className="font-semibold xl:ml-0 ml-[5px]">1:30hs</span>
-          </p>
-          <div className="flex w-full items-center justify-center mt-[1%]">
+          <div className="flex w-full justify-center">
+            {/* Columna Izquierda */}
+            <div className="flex flex-col text-start justify-center w-1/2 pr-4">
+              <p className="flex mx-auto text-lg font-bold text-black mb-4">
+                Lunes a Viernes
+              </p>
+              <div className="flex flex-col justify-center">
+                <p className="text-base font-bold text-gray-600 mb-4 underline">
+                  De 16hs a 23:30hs:
+                </p>
+                <div className="flex gap-2">
+                  <p className="font-bold text-gray-600">1 hora:</p>
+                  <div className="flex flex-col text-start">
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        Socios:
+                      </span>
+                      $24.000
+                    </p>
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        No socios:
+                      </span>
+                      $28.000
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-2">
+                  <p className="font-bold text-gray-600">1:30 horas:</p>
+                  <div className="flex flex-col text-start">
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        Socios:
+                      </span>
+                      $31.000
+                    </p>
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        No socios:
+                      </span>
+                      $36.000
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-col">
+                <p className="text-base font-bold text-gray-600 mb-4 underline">
+                  De 8hs a 16hs:
+                </p>
+                <div className="flex gap-2">
+                  <p className="font-bold text-gray-600">1 hora:</p>
+                  <div className="flex flex-col text-start">
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        Socios:
+                      </span>
+                      $18.000
+                    </p>
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        No socios:
+                      </span>
+                      $21.000
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-2">
+                  <p className="font-bold text-gray-600">1:30 horas:</p>
+                  <div className="flex flex-col text-start">
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        Socios:
+                      </span>
+                      $24.000
+                    </p>
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        No socios:
+                      </span>
+                      $28.000
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Divisor */}
+            <div className="border-l-2 border-gray-400 h-auto"></div>
+
+            {/* Columna Derecha */}
+            <div className="flex flex-col text-start w-1/2 pl-4">
+              <p className="flex mx-auto text-lg font-bold text-black mb-4">
+                Sábado y Domingo
+              </p>
+              <div className="flex flex-col">
+                <p className="text-base font-bold text-gray-600 mb-4 underline">
+                  De 8hs a 23:30hs:
+                </p>
+                <div className="flex gap-2">
+                  <p className="font-bold text-gray-600">1 hora:</p>
+                  <div className="flex flex-col text-start">
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        Socios:
+                      </span>
+                      $24.000
+                    </p>
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        No socios:
+                      </span>
+                      $28.000
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-2">
+                  <p className="font-bold text-gray-600">1:30 horas:</p>
+                  <div className="flex flex-col text-start">
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        Socios:
+                      </span>
+                      $31.000
+                    </p>
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        No socios:
+                      </span>
+                      $36.000
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex w-full items-center justify-center mt-[5%]">
             <Button1
               text="Reservar"
               bg="bg-blue-gradient"
