@@ -26,10 +26,10 @@ function Precios({ id }: PreciosProps) {
           <p className="text-xl font-bold text-gray-600 mb-4">
             Disfruta de nuestras canchas de padel de primer nivel
           </p>
-          <div className="flex w-full justify-center">
+          <div className="flex xl:flex-row flex-col w-full justify-center xl:gap-0 gap-4">
             {/* Columna Izquierda */}
-            <div className="flex flex-col text-start justify-center w-1/2 pr-4">
-              <p className="flex mx-auto text-lg font-bold text-black mb-4">
+            <div className="flex flex-col text-start justify-center xl:w-1/2 xl:pr-4">
+              <p className="flex mx-auto text-xl font-bold text-black mb-4">
                 Lunes a Viernes
               </p>
               <div className="flex flex-col justify-center">
@@ -114,11 +114,11 @@ function Precios({ id }: PreciosProps) {
             </div>
 
             {/* Divisor */}
-            <div className="border-l-2 border-gray-400 h-auto"></div>
+            <div className="border-l-2 border-gray-400 h-auto xl:flex hidden"></div>
 
             {/* Columna Derecha */}
-            <div className="flex flex-col text-start w-1/2 pl-4">
-              <p className="flex mx-auto text-lg font-bold text-black mb-4">
+            <div className="flex flex-col text-start xl:w-1/2 xl:pl-4">
+              <p className="flex mx-auto text-xl font-bold text-black mb-4">
                 Sábado y Domingo
               </p>
               <div className="flex flex-col">
