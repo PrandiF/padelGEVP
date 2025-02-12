@@ -168,7 +168,7 @@ function Precios({ id }: PreciosProps) {
               text="Reservar"
               bg="bg-blue-gradient"
               textColor="text-[#fff]"
-              url="https://app.acuityscheduling.com/schedule.php?owner=34590878"
+              url="https://app.acuityscheduling.com/schedule.php?owner=34815657"
             />
           </div>
         </div>
