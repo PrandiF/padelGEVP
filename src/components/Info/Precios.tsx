@@ -32,46 +32,6 @@ function Precios({ id }: PreciosProps) {
               <p className="flex mx-auto text-xl font-bold text-black mb-4">
                 Lunes a Viernes
               </p>
-              <div className="flex flex-col justify-center">
-                <p className="text-base font-bold text-gray-600 mb-4 underline">
-                  De 16hs a 23:30hs:
-                </p>
-                <div className="flex gap-2">
-                  <p className="font-bold text-gray-600">1 hora:</p>
-                  <div className="flex flex-col text-start">
-                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
-                      <span className="text-base font-bold text-gray-800">
-                        Socios:
-                      </span>
-                      $24.000
-                    </p>
-                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
-                      <span className="text-base font-bold text-gray-800">
-                        No socios:
-                      </span>
-                      $28.000
-                    </p>
-                  </div>
-                </div>
-                <div className="flex gap-2">
-                  <p className="font-bold text-gray-600">1:30 horas:</p>
-                  <div className="flex flex-col text-start">
-                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
-                      <span className="text-base font-bold text-gray-800">
-                        Socios:
-                      </span>
-                      $31.000
-                    </p>
-                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
-                      <span className="text-base font-bold text-gray-800">
-                        No socios:
-                      </span>
-                      $36.000
-                    </p>
-                  </div>
-                </div>
-              </div>
-
               <div className="flex flex-col">
                 <p className="text-base font-bold text-gray-600 mb-4 underline">
                   De 8hs a 16hs:
@@ -107,6 +67,45 @@ function Precios({ id }: PreciosProps) {
                         No socios:
                       </span>
                       $28.000
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col justify-center">
+                <p className="text-base font-bold text-gray-600 mb-4 underline">
+                  De 16hs a 23:30hs:
+                </p>
+                <div className="flex gap-2">
+                  <p className="font-bold text-gray-600">1 hora:</p>
+                  <div className="flex flex-col text-start">
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        Socios:
+                      </span>
+                      $24.000
+                    </p>
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        No socios:
+                      </span>
+                      $28.000
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-2">
+                  <p className="font-bold text-gray-600">1:30 horas:</p>
+                  <div className="flex flex-col text-start">
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        Socios:
+                      </span>
+                      $31.000
+                    </p>
+                    <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
+                      <span className="text-base font-bold text-gray-800">
+                        No socios:
+                      </span>
+                      $36.000
                     </p>
                   </div>
                 </div>
