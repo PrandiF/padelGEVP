@@ -5,7 +5,7 @@ const WhatsAppButton = () => {
 
   return (
     <a
-      href={`https://wa.me/${phoneNumber}?text=Hola,%20quiero%20reservar%20una%20cancha.`}
+      href={`https://wa.me/${phoneNumber}?text=Hola,%20quiero%20jugar%20en%20Padel%20GEVP.`}
       target="_blank"
       rel="noopener noreferrer"
       className="fixed xl:bottom-6 xl:right-6 bottom-4 right-2 bg-green-500 text-white xl:p-4 p-3 rounded-full 

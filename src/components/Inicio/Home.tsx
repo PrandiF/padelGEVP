@@ -36,7 +36,7 @@ function Home({ id }: HomeProps) {
               text="Reservar"
               bg="bg-blue-gradient"
               textColor="text-[#fff]"
-              url="https://app.acuityscheduling.com/schedule.php?owner=34590878"
+              url="https://app.acuityscheduling.com/schedule.php?owner=34815657"
             />
             <Button2
               scroll="PRECIOS"

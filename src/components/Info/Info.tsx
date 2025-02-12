@@ -93,7 +93,7 @@ function AditionalInfo({ id }: AddInfoProps) {
 
           <p className="text-gray-600">Contáctanos para más información.</p>
           <a
-            href="https://wa.me/5491173686929?text=Hola,%20quiero%20sacar%20mi%20abono."
+            href="https://wa.me/5491173686929?text=Hola,%20quiero%20jugar%20en%20Padel%20GEVP."
             className="text-gray-600 flex items-center justify-center gap-2 mt-2 hover:underline hover:text-green-500 w-fit mx-auto"
             target="_blank"
           >
