@@ -2,7 +2,7 @@ import gsap from "gsap";
 import { useEffect, useRef, useState } from "react";
 import { IoIosMenu } from "react-icons/io";
 import { Link } from "react-scroll";
-import logo from "/assets/gevpPadelLogo2.jpg";
+import logo from "/assets/gevpPadelLogo2.webp";
 
 function HeaderResponsive() {
   const contentRef = useRef(null);

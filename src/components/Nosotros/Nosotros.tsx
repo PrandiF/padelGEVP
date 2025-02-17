@@ -13,7 +13,7 @@ function Nosotros({ id }: NosotrosProps) {
   }, []);
 
   return (
-    <div id={id} className="flex flex-col w-full py-5 text-white gap-8">
+    <div id={id} className="flex flex-col w-full py-5 xl:mt-20 text-white gap-8">
       <div data-aos="fade" data-aos-delay="400">
         <Title
           title="¿Quienes somos?"

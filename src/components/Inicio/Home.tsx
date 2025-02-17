@@ -1,5 +1,5 @@
 import Title from "../../commons/Title";
-import fondo from "/assets/padelFondo2.avif";
+import fondo from "/assets/padelFondo.webp";
 import fondoMobile from "/assets/padel4.webp";
 import Button1 from "../../commons/Button1";
 import Button2 from "../../commons/Button2";

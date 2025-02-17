@@ -1,11 +1,12 @@
-import img2 from "/assets/chela1.png";
-import img3 from "/assets/chela2.png";
-import img4 from "/assets/chela3.png";
-import img5 from "/assets/chela4.png";
-import img6 from "/assets/playPadel.webp";
-import img7 from "/assets/tenis1.png";
-import img8 from "/assets/tenisPlay1.png";
-import img9 from "/assets/tenisPlay2.png";
+import img2 from "/assets/chela1.webp";
+import img3 from "/assets/chela2.webp";
+import img4 from "/assets/chela3.webp";
+import img5 from "/assets/chela4.webp";
+import img6 from "/assets/padel3.webp";
+import img7 from "/assets/padel5.webp";
+import img8 from "/assets/padel6.webp";
+import img9 from "/assets/padel1.webp";
+import img10 from "/assets/padel2.webp";
 
 export const TenisPics = [
   { nombre: "img2", url: img2 },
@@ -16,4 +17,5 @@ export const TenisPics = [
   { nombre: "img7", url: img7 },
   { nombre: "img8", url: img8 },
   { nombre: "img9", url: img9 },
+  { nombre: "img10", url: img10 },
 ];
