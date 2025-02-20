@@ -11,7 +11,7 @@ type HomeProps = {
 function Home({ id }: HomeProps) {
   return (
     <section
-      className="bg-transparent xl:text-start text-center relative z-30 w-screen mb-[10%]"
+      className="bg-transparent xl:text-start text-center relative z-30 w-screen xl:mb-[15%] sm:mb-[-10%]"
       id={id}
     >
       <img
@@ -23,12 +23,12 @@ function Home({ id }: HomeProps) {
         className="w-screen h-[160%] absolute z-0 object-cover xl:hidden flex "
       />
       <div className="absolute top-0 h-[50%] w-screen bg-gradient-to-b from-black to-transparent z-10" />
-      <div className="absolute bottom-[-60%] xl:bottom-[-90%] h-[50%] w-screen bg-gradient-to-t from-black to-transparent z-10" />
+      <div className="absolute sm:bottom-[-60%] bottom-[-65%] xl:bottom-[-90%] h-[50%] w-screen bg-gradient-to-t from-black to-transparent z-10" />
       <div className="xl:max-w-3xl xl:px-0 px-2 xl:ml-[5%] xl:mt-[8%] mt-[-5%]">
-        <div className="xl:pt-0 pt-[20%]">
+        <div className="xl:pt-0 pt-[20%] flex flex-col xl:ml-0 mx-auto">
           <Title
             title="¡Bienvenidos a Padel GEVP!"
-            className="xl:pt-[15%] pt-[55%] xl:pb-0"
+            className="xl:pt-[15%] pt-[40%] xl:pb-0 lg:text-start xl:text-start text-center justify-center"
           />
 
           <div className="flex gap-5 xl:items-start items-center xl:justify-start justify-center xl:mt-0 mt-[10px]">

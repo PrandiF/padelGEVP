@@ -15,7 +15,7 @@ function Slider() {
   }, []);
 
   return (
-    <div className="hidden xl:flex xl:flex-col xl:w-full mx-auto relative">
+    <div className="hidden xl:flex xl:flex-col xl:w-full sm:w-full mx-auto relative">
       <div className="w-full relative">
         <Swiper
           slidesPerView={3}

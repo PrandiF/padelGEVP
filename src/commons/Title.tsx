@@ -19,7 +19,7 @@ function Title({ title, className }: TitleProps) {
       data-aos="fade"
       data-aos-duration="1600"
     >
-      <h3 className="font-bold xl:text-[4rem] text-[2rem] opacity-90 tracking-widest drop-shadow-3xl text-[#f2f8fe]">
+      <h3 className="font-bold xl:text-[4rem] sm:text-[3rem] text-[2rem] opacity-90 tracking-widest drop-shadow-3xl text-[#f2f8fe]">
         {title}
       </h3>
     </div>
