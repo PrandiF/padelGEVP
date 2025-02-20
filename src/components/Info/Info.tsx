@@ -33,7 +33,7 @@ function AditionalInfo({ id }: AddInfoProps) {
           <div className="flex xl:flex-row flex-col w-full justify-center xl:gap-0 gap-4">
             {/* Columna Derecha */}
             <div className="flex flex-col text-start xl:w-1/2 xl:pl-4 xl:gap-0 gap-2">
-              <p className="flex text-lg font-bold text-gray-600 underline">
+              <p className="flex text-lg font-bold text-gray-600 underline xl:justify-start sm:justify-start justify-center">
                 Alquiler de paletas
               </p>
               <div className="flex flex-col xl:w-full">
@@ -52,8 +52,8 @@ function AditionalInfo({ id }: AddInfoProps) {
             {/* <div className="border-l-2 border-gray-400 h-auto"></div> */}
 
             {/* Columna Derecha */}
-            <div className="flex flex-col text-start xl:w-1/2 xl:pl-4 xl:gap-0 gap-2">
-              <p className="flex text-lg font-bold text-gray-600 underline">
+            <div className="flex flex-col xl:w-1/2 xl:pl-4 xl:gap-0 gap-2">
+              <p className="flex text-lg font-bold text-gray-600 underline xl:justify-start sm:justify-start justify-center">
                 Tubos de pelotas en venta
               </p>
               <div className="flex flex-col xl:w-full">

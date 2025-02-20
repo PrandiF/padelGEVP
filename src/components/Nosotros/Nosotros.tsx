@@ -17,7 +17,7 @@ function Nosotros({ id }: NosotrosProps) {
       <div data-aos="fade" data-aos-delay="400">
         <Title
           title="¿Quienes somos?"
-          className="items-center justify-center"
+          className="justify-center"
         />
       </div>
 
