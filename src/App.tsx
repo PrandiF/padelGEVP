@@ -21,7 +21,7 @@ function App() {
         <Home id="HOME" />
       </div>
       <div className="flex flex-col  bg-black">
-        <div className="xl:mt-[12%] mt-[65%] mb-10">
+        <div className="xl:mt-[12%] sm:mt-[65%] mt-[75%] mb-10">
           <Nosotros id="NOSOTROS" />
           <div className="xl:mt-[5%]  mt-[15%]">
             <InstalSection id="GALERIA" />
