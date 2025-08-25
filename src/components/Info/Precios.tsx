@@ -43,13 +43,13 @@ function Precios({ id }: PreciosProps) {
                       <span className="text-base font-bold text-gray-800">
                         Socios:
                       </span>
-                      $22.000
+                      $25.500
                     </p>
                     <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
                       <span className="text-base font-bold text-gray-800">
                         No socios:
                       </span>
-                      $25.000
+                      $29.000
                     </p>
                   </div>
                 </div>
@@ -60,13 +60,13 @@ function Precios({ id }: PreciosProps) {
                       <span className="text-base font-bold text-gray-800">
                         Socios:
                       </span>
-                      $27.000
+                      $31.000
                     </p>
                     <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
                       <span className="text-base font-bold text-gray-800">
                         No socios:
                       </span>
-                      $32.000
+                      $37.000
                     </p>
                   </div>
                 </div>
@@ -82,13 +82,13 @@ function Precios({ id }: PreciosProps) {
                       <span className="text-base font-bold text-gray-800">
                         Socios:
                       </span>
-                      $27.000
+                      $25.500
                     </p>
                     <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
                       <span className="text-base font-bold text-gray-800">
                         No socios:
                       </span>
-                      $32.000
+                      $29.000
                     </p>
                   </div>
                 </div>
@@ -99,13 +99,13 @@ function Precios({ id }: PreciosProps) {
                       <span className="text-base font-bold text-gray-800">
                         Socios:
                       </span>
-                      $34.000
+                      $39.000
                     </p>
                     <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
                       <span className="text-base font-bold text-gray-800">
                         No socios:
                       </span>
-                      $40.000
+                      $46.000
                     </p>
                   </div>
                 </div>
@@ -131,13 +131,13 @@ function Precios({ id }: PreciosProps) {
                       <span className="text-base font-bold text-gray-800">
                         Socios:
                       </span>
-                      $27.000
+                      $25.500
                     </p>
                     <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
                       <span className="text-base font-bold text-gray-800">
                         No socios:
                       </span>
-                      $32.000
+                      $29.000
                     </p>
                   </div>
                 </div>
@@ -148,13 +148,13 @@ function Precios({ id }: PreciosProps) {
                       <span className="text-base font-bold text-gray-800">
                         Socios:
                       </span>
-                      $34.000
+                      $39.000
                     </p>
                     <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
                       <span className="text-base font-bold text-gray-800">
                         No socios:
                       </span>
-                      $40.000
+                      $46.000
                     </p>
                   </div>
                 </div>
@@ -173,13 +173,13 @@ function Precios({ id }: PreciosProps) {
                       <span className="text-base font-bold text-gray-800">
                         Socios:
                       </span>
-                      $27.000
+                      $25.500
                     </p>
                     <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
                       <span className="text-base font-bold text-gray-800">
                         No socios:
                       </span>
-                      $32.000
+                      $29.000
                     </p>
                   </div>
                 </div>
@@ -190,13 +190,13 @@ function Precios({ id }: PreciosProps) {
                       <span className="text-base font-bold text-gray-800">
                         Socios:
                       </span>
-                      $34.000
+                      $39.000
                     </p>
                     <p className="text-base font-bold text-green-700 mb-2 flex gap-1">
                       <span className="text-base font-bold text-gray-800">
                         No socios:
                       </span>
-                      $40.000
+                      $46.000
                     </p>
                   </div>
                 </div>
