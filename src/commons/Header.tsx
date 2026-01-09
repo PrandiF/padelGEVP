@@ -31,7 +31,7 @@ function Header() {
         </Link>
         <Link
           className="cursor-pointer hover:underline"
-          to="PRECIOS"
+          to="INFO"
           smooth="true"
         >
           Más Info

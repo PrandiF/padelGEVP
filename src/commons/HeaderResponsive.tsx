@@ -91,7 +91,7 @@ function HeaderResponsive() {
             Galería
           </Link>
           <Link
-            to="PRECIOS"
+            to="INFO"
             spy={true}
             smooth={true}
             duration={700}
