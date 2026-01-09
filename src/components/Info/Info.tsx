@@ -30,13 +30,14 @@ function AditionalInfo({ id }: AddInfoProps) {
             la que más te guste y concéntrate en lo importante, jugar!
           </p>
 
-          <div className="flex xl:flex-row flex-col w-full justify-center xl:gap-0 gap-4">
-            {/* Columna Derecha */}
-            <div className="flex flex-col text-start xl:w-1/2 xl:pl-4 xl:gap-0 gap-2">
-              <p className="flex text-lg font-bold text-gray-600 underline xl:justify-start sm:justify-start justify-center">
+          <div className="flex xl:flex-row flex-col w-full justify-center items-center gap-8">
+            {/* Columna Izquierda */}
+            <div className="flex flex-col items-center text-center xl:w-1/2 gap-2">
+              <p className="text-lg font-bold text-gray-600 underline">
                 Alquiler de paletas
               </p>
-              <div className="flex flex-col xl:w-full">
+
+              <div className="flex flex-col items-center">
                 <div className="flex gap-2">
                   <p className="font-bold text-gray-600">Paleta 1:</p>
                   <p className="text-black">$3.500</p>
@@ -48,15 +49,13 @@ function AditionalInfo({ id }: AddInfoProps) {
               </div>
             </div>
 
-            {/* Divisor */}
-            {/* <div className="border-l-2 border-gray-400 h-auto"></div> */}
-
             {/* Columna Derecha */}
-            <div className="flex flex-col xl:w-1/2 xl:pl-4 xl:gap-0 gap-2">
-              <p className="flex text-lg font-bold text-gray-600 underline xl:justify-start sm:justify-start justify-center">
+            <div className="flex flex-col items-center text-center xl:w-1/2 gap-2">
+              <p className="text-lg font-bold text-gray-600 underline">
                 Tubos de pelotas en venta
               </p>
-              <div className="flex flex-col xl:w-full">
+
+              <div className="flex flex-col items-center">
                 <div className="flex gap-2">
                   <p className="font-bold text-gray-600">Head:</p>
                   <p className="text-black">$15.000</p>
@@ -73,21 +72,24 @@ function AditionalInfo({ id }: AddInfoProps) {
             <h3 className="text-3xl font-semibold mb-4 text-[#6EC1E4]">
               Sacá tu abono
             </h3>
-            <p className="text-sm text-gray-600 mb-4 xl:text-base text-start">
-              En <b>Pádel GEVP</b>, podés reservar tu cancha fija por mes garantizando
-              tu partido con amigos sin preocupaciones.
+            <p className="text-sm text-gray-600 mb-4 xl:text-base text-center">
+              En <b>Pádel GEVP</b>, podés reservar tu cancha fija por mes
+              garantizando tu partido con amigos sin preocupaciones.
               <br />
               <br />
               Para confirmar tu abono mensual, el pago debe realizarse dentro de
               los primeros 10 días del mes. El costo se calcula multiplicando el
-              valor de la cancha por la cantidad de días reservados, con un 
+              valor de la cancha por la cantidad de días reservados, con un
               <b className="ml-1">
                 10% de descuento para no socios y un 20% de descuento para
                 socios.
               </b>
               <br />
               <br />
-              <p className="font-bold text-center">¡No te quedes sin jugar, asegurá tu cancha y disfrutá del mejor pádel!</p>
+              <p className="font-bold text-center">
+                ¡No te quedes sin jugar, asegurá tu cancha y disfrutá del mejor
+                pádel!
+              </p>
             </p>
           </div>
 
